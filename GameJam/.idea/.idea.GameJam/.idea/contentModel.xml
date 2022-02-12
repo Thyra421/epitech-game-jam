@@ -34,9 +34,11 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Active.cs" t="Include" />
           <e p="BasicRigidBodyPush.cs" t="Include" />
           <e p="Door.cs" t="Include" />
           <e p="DoorController.cs" t="Include" />
+          <e p="test.cs" t="Include" />
           <e p="ThirdPersonController.cs" t="Include" />
         </e>
         <e p="TutorialInfo" t="Include">

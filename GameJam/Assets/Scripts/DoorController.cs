@@ -21,6 +21,9 @@ public class DoorController : MonoBehaviour
     {
         if (!_isOpen && Input.GetKey(KeyCode.Tab)) {
             _isOpen = true;
+            doorLeft.Open();
+            doorRight.Open();
+            Debug.Log("Opening door");
         }
     }
 
