@@ -4,17 +4,6 @@
     <list default="true" id="5b0c8e7b-516e-4296-81d2-998b38fc42b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/Animations/Megan/MeganAnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Animations/Megan/MeganAnimationController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fade.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fade.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sci Fi Gates.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sci Fi Gates.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnvironmentColorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnvironmentColorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoneyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoneyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Phrase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Phrase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ThirdPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ThirdPersonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.3.0/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.3.0/InputSystem/Plugins/PlayerInput/PlayerInputManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentColorController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LastRoom.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -41,6 +31,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentColorController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Phrase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LastRoom.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="24yRUWkkHmwcdfVNHk5HgPchd7G" />
