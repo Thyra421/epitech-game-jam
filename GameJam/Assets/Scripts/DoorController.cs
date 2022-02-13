@@ -90,7 +90,7 @@ public class DoorController : MonoBehaviour
         Debug.Log("pressure");
         player.AddForce((pressureSource.position - player.position) * 80);
         fadeIn.SetTrigger("Fade");
-        money.Remove(20000);
+        money.Remove(50000);
         Invoke(nameof(Reset), 2);
     }
 

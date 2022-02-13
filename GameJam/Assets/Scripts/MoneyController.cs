@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class MoneyController : MonoBehaviour
 {
-    private int amount = 100000;
+    private int amount = 1000000;
     public Text txt;
 
     private void Start()
@@ -13,7 +13,7 @@ public class MoneyController : MonoBehaviour
 
     public void Remove(int a)
     {
-        amount = Mathf.Clamp(0, 100000, amount - a);
+        amount = Mathf.Clamp(amount - a, 0, 1000000);
         txt.text = "$" + amount;
     }
 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b0c8e7b-516e-4296-81d2-998b38fc42b1" name="Default Changelist" comment="" />
+    <list default="true" id="5b0c8e7b-516e-4296-81d2-998b38fc42b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoneyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoneyController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,11 +25,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Door.cs" />
       <option value="$PROJECT_DIR$/Assets/RadioController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MoneyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentColorController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Phrase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LastRoom.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Load_scene.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoneyController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="24yRUWkkHmwcdfVNHk5HgPchd7G" />
@@ -77,6 +80,7 @@
       <workItem from="1644695596817" duration="3308000" />
       <workItem from="1644759808087" duration="423000" />
       <workItem from="1644761493963" duration="7830000" />
+      <workItem from="1644791042134" duration="626000" />
     </task>
     <servers />
   </component>
