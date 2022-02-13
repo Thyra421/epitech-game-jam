@@ -38,6 +38,8 @@
           <e p="BasicRigidBodyPush.cs" t="Include" />
           <e p="Door.cs" t="Include" />
           <e p="DoorController.cs" t="Include" />
+          <e p="Fullscreen.cs" t="Include" />
+          <e p="Quit.cs" t="Include" />
           <e p="test.cs" t="Include" />
           <e p="ThirdPersonController.cs" t="Include" />
         </e>

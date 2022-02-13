@@ -11,7 +11,6 @@ public class Door : MonoBehaviour
 
     public Direction direction;
     
-    private bool _isOpen = false;
     private bool _isOpening = false;
     private bool _isClosing = false;
     private Vector3 _openPos;
@@ -27,14 +26,12 @@ public class Door : MonoBehaviour
     {
         _isOpening = true;
         _isClosing = false;
-        _isOpen = true;
     }
 
     public void Close()
     {
         _isClosing = true;
         _isOpening = false;
-        _isOpen = false;
     }
     
     private void Update()
