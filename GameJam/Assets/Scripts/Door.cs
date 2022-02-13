@@ -37,8 +37,8 @@ public class Door : MonoBehaviour
     private void Update()
     {
         if (_isOpening)
-            transform.position = Vector3.Lerp(transform.position, _openPos, 30 * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, _openPos, 10 * Time.deltaTime);
         if (_isClosing)
-            transform.position = Vector3.Lerp(transform.position, _origin, 30 * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, _origin, 10 * Time.deltaTime);
     }
 }

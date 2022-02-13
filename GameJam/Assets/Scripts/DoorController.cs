@@ -9,9 +9,16 @@ public class DoorController : MonoBehaviour
     public Door doorRight;
     public Slider slider;
     public Text hint;
+    public AudioSource sound;
+    public Rigidbody player;
+    public Transform pressureSource;
+    public Animator fadeIn;
+    public bool isSafe;
     private bool _isOpen;
     private bool _isHolding;
     private float _holdTime;
+    
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -19,25 +26,24 @@ public class DoorController : MonoBehaviour
             return;
         }
         if (_isOpen) {
-            doorLeft.Open();
-            doorRight.Open();
+            Open();
         } else {
             hint.text = "Hold tab to open the door";
-            hint.gameObject.SetActive(true);    
+            hint.gameObject.SetActive(true);
         }
     }
 
     private void OnTriggerStay(Collider other)
+
     {
         if (_isOpen || !other.transform.CompareTag("Player"))
             return;
 
         if (_holdTime >= 3) {
             _isOpen = true;
-            doorLeft.Open();
-            doorRight.Open();
             hint.gameObject.SetActive(false);
             slider.gameObject.SetActive(false);
+            Open();
         } else if (Input.GetKey(KeyCode.Tab)) {
             slider.gameObject.SetActive(true);
             _holdTime += Time.deltaTime;
@@ -46,7 +52,6 @@ public class DoorController : MonoBehaviour
             _holdTime = 0;
             slider.value = 0;
         }
-        
     }
 
     private void OnTriggerExit(Collider other)
@@ -57,5 +62,21 @@ public class DoorController : MonoBehaviour
             doorLeft.Close();
             doorRight.Close();
         }
+    }
+
+    private void Open()
+    {
+        doorLeft.Open();
+        doorRight.Open();
+        sound.Play();
+        if (!isSafe)
+            Pressure();
+    }
+
+    private void Pressure()
+    {
+        Debug.Log("pressure");
+        player.AddForce((pressureSource.position - player.position) * 200);
+        fadeIn.SetTrigger("Fade");
     }
 }

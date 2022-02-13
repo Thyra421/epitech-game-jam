@@ -4,7 +4,6 @@
     <e p="C:\Users\test\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\test\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_GameJam.1832461020.00" t="ExcludeRecursive" />
     <e p="C:\Users\test\Documents\GitHub\epitech-game-jam\GameJam" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_Barking_Dog" t="Include">
@@ -39,17 +38,11 @@
           <e p="Door.cs" t="Include" />
           <e p="DoorController.cs" t="Include" />
           <e p="Fullscreen.cs" t="Include" />
+          <e p="Load_scene.cs" t="Include" />
           <e p="Quit.cs" t="Include" />
+          <e p="Sound_effect.cs" t="Include" />
           <e p="test.cs" t="Include" />
           <e p="ThirdPersonController.cs" t="Include" />
-        </e>
-        <e p="TutorialInfo" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="Editor" t="Include">
-              <e p="ReadmeEditor.cs" t="Include" />
-            </e>
-            <e p="Readme.cs" t="Include" />
-          </e>
         </e>
       </e>
       <e p="GameJam.sln" t="IncludeFlat" />
