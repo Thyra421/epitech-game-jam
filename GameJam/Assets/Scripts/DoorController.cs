@@ -13,9 +13,9 @@ public class DoorController : MonoBehaviour
     public Rigidbody player;
     public Transform pressureSource;
     public Animator fadeIn;
+    public MoneyController money;
     public bool isSafe;
     private bool _isOpen;
-    private bool _isHolding;
     private float _holdTime;
     
 
