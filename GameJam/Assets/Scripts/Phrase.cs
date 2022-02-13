@@ -8,11 +8,11 @@ public class Phrase : MonoBehaviour
 {
     public Text phrase;
 
-    public void Start()
+    public string GetRandomPhrase()
     {
         System.Random a = new System.Random();
         string fileName = "Assets/Scripts/file.txt";
         string[] lines = File.ReadAllLines(fileName);
-        phrase.text = lines[a.Next(6)];
+        return lines[a.Next(6)];
     }
 }

@@ -39,7 +39,6 @@
             </e>
           </e>
         </e>
-        <e p="RadioController.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Active.cs" t="Include" />
           <e p="BasicRigidBodyPush.cs" t="Include" />
@@ -51,6 +50,7 @@
           <e p="Load_scene.cs" t="Include" />
           <e p="Phrase.cs" t="Include" />
           <e p="Quit.cs" t="Include" />
+          <e p="RadioController.cs" t="Include" />
           <e p="Sound_effect.cs" t="Include" />
           <e p="test.cs" t="Include" />
           <e p="ThirdPersonController.cs" t="Include" />
