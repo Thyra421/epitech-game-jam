@@ -10,4 +10,9 @@ public class Load_scene : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+
+    public void Lock()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
 }
