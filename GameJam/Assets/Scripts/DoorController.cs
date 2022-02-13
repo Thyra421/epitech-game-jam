@@ -79,4 +79,9 @@ public class DoorController : MonoBehaviour
         player.AddForce((pressureSource.position - player.position) * 200);
         fadeIn.SetTrigger("Fade");
     }
+
+    private void Reset()
+    {
+        
+    }
 }

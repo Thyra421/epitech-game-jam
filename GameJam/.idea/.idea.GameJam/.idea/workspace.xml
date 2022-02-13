@@ -4,13 +4,13 @@
     <list default="true" id="5b0c8e7b-516e-4296-81d2-998b38fc42b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sci Fi Gates.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sci Fi Gates.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Barking_Dog/3D Free Modular Kit/_Meshes/Wall_Arc_90_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Barking_Dog/3D Free Modular Kit/_Meshes/Wall_Arc_90_01.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/paper.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/paper.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Table and chair/Chair/Material/Chair_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Table and chair/Chair/Material/Chair_Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Table and chair/Chair/Model/Materials/Plane002Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Table and chair/Chair/Model/Materials/Plane002Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Table and chair/Others/Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Table and chair/Others/Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Table and chair/Table/Material/Table_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Table and chair/Table/Material/Table_Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Table and chair/Table/Model/Materials/_LP_LPwire_135110008.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Table and chair/Table/Model/Materials/_LP_LPwire_135110008.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +22,18 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoorController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RadioController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.3.0/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.3.0/InputSystem/Plugins/PlayerInput/PlayerInputManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnvironmentColorController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/InputSystem/StarterAssets.inputactions" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Door.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentColorController.cs" />
+      <option value="$PROJECT_DIR$/Assets/RadioController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="24yRUWkkHmwcdfVNHk5HgPchd7G" />
@@ -78,7 +82,7 @@
       <workItem from="1644690153415" duration="157000" />
       <workItem from="1644695596817" duration="3308000" />
       <workItem from="1644759808087" duration="423000" />
-      <workItem from="1644761493963" duration="4379000" />
+      <workItem from="1644761493963" duration="7830000" />
     </task>
     <servers />
   </component>
