@@ -1,4 +1,5 @@
 using System;
+using StarterAssets;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -14,10 +15,11 @@ public class DoorController : MonoBehaviour
     public Transform pressureSource;
     public Animator fadeIn;
     public MoneyController money;
+    public ThirdPersonController controller;
+    public Phrase phrase;
     public bool isSafe;
     private bool _isOpen;
     private float _holdTime;
-    
 
 
     private void OnTriggerEnter(Collider other)
@@ -25,6 +27,7 @@ public class DoorController : MonoBehaviour
         if (!other.transform.CompareTag("Player")) {
             return;
         }
+
         if (_isOpen) {
             Open();
         } else {
@@ -57,11 +60,16 @@ public class DoorController : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         if (other.transform.CompareTag("Player")) {
-            hint.gameObject.SetActive(false);
-            slider.gameObject.SetActive(false);
-            doorLeft.Close();
-            doorRight.Close();
+            Close();
         }
+    }
+
+    void Close()
+    {
+        hint.gameObject.SetActive(false);
+        slider.gameObject.SetActive(false);
+        doorLeft.Close();
+        doorRight.Close();
     }
 
     private void Open()
@@ -69,14 +77,31 @@ public class DoorController : MonoBehaviour
         doorLeft.Open();
         doorRight.Open();
         sound.Play();
-        if (!isSafe)
-            Pressure();
+        if (!isSafe) {
+            Invoke(nameof(Pressure), .25f);
+        }
     }
 
     private void Pressure()
     {
+        EnvironmentColorController.Reset();
+        controller.EnableController(false);
+        controller.Push();
         Debug.Log("pressure");
-        player.AddForce((pressureSource.position - player.position) * 200);
+        player.AddForce((pressureSource.position - player.position) * 80);
         fadeIn.SetTrigger("Fade");
+        money.Remove(20000);
+        Invoke(nameof(Reset), 2);
+    }
+
+    private void Reset()
+    {
+        Close();
+        controller.Reset();
+        player.velocity = Vector3.zero;
+        controller.EnableController(true);
+        _isOpen = false;
+        _holdTime = 0;
+        phrase.SetPhrase();
     }
 }

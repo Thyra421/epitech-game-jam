@@ -1506,8 +1506,8 @@ RectTransform:
   - {fileID: 301331576}
   - {fileID: 1610740197}
   - {fileID: 1059901910}
-  - {fileID: 1201725757}
   - {fileID: 1498494136}
+  - {fileID: 1702251770}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5650,17 +5650,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (14)
@@ -6871,6 +6883,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
@@ -6879,13 +6895,21 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (3)
@@ -7920,8 +7944,9 @@ GameObject:
   - component: {fileID: 301331576}
   - component: {fileID: 301331578}
   - component: {fileID: 301331577}
+  - component: {fileID: 301331579}
   m_Layer: 5
-  m_Name: Text
+  m_Name: money
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7967,7 +7992,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 9f84fe37935960c4fa19d6dc746ffd46, type: 3}
     m_FontSize: 57
     m_FontStyle: 1
     m_BestFit: 0
@@ -7988,6 +8013,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301331575}
   m_CullTransparentMesh: 1
+--- !u!114 &301331579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301331575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fdaa9f755a73354ca701e969ef944a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txt: {fileID: 301331577}
 --- !u!4 &301423936 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8066995220938395145, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
@@ -9932,6 +9970,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
@@ -9940,13 +9982,21 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (1)
@@ -11766,7 +11816,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &429920749
 AudioSource:
   m_ObjectHideFlags: 0
@@ -23933,6 +23983,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
@@ -23941,13 +23995,21 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (6)
@@ -26217,17 +26279,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (10)
@@ -28142,17 +28216,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (11)
@@ -29880,17 +29966,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (9)
@@ -30351,17 +30449,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (21)
@@ -31484,17 +31594,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (8)
@@ -32252,17 +32374,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (19)
@@ -32325,6 +32459,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
@@ -32333,13 +32471,21 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (5)
@@ -33702,7 +33848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.53
+      value: -14.8
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -33710,7 +33856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.84
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -34828,85 +34974,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8066995220938395145, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
   m_PrefabInstance: {fileID: 1059010971}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1201725756
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1201725757}
-  - component: {fileID: 1201725759}
-  - component: {fileID: 1201725758}
-  m_Layer: 5
-  m_Name: Sprint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1201725757
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201725756}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 39155050}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 274, y: 24}
-  m_SizeDelta: {x: 500, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1201725758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201725756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 42
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 61
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Hold shift to sprint
---- !u!222 &1201725759
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201725756}
-  m_CullTransparentMesh: 1
 --- !u!1 &1203773357
 GameObject:
   m_ObjectHideFlags: 0
@@ -36794,17 +36861,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (12)
@@ -41142,17 +41221,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (16)
@@ -44017,7 +44108,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 39155050}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -49424,6 +49515,120 @@ Transform:
   m_Father: {fileID: 2049562967}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1702251769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1702251770}
+  - component: {fileID: 1702251773}
+  - component: {fileID: 1702251772}
+  - component: {fileID: 1702251771}
+  - component: {fileID: 1702251774}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1702251770
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702251769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 39155050}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -363, y: 655}
+  m_SizeDelta: {x: 1012.2, y: 141.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1702251771
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702251769}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0ec397a843bdb0846a7a111607920fd8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1702251772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702251769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 42
+    m_FontStyle: 2
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 49
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &1702251773
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702251769}
+  m_CullTransparentMesh: 1
+--- !u!114 &1702251774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702251769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e16afd21e8f014baa0f9a5145b9aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  phrase: {fileID: 1702251772}
+  animator: {fileID: 1702251771}
 --- !u!1 &1703505785
 GameObject:
   m_ObjectHideFlags: 0
@@ -50432,7 +50637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.53
+      value: -14.8
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -50440,7 +50645,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.84
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -51332,17 +51537,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (15)
@@ -52658,37 +52875,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 433114, guid: b9038ed84a1fe4aecb34086f7f42d1bf, type: 3}
   m_PrefabInstance: {fileID: 1826188122}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1828145611
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1828145613}
-  m_Layer: 0
-  m_Name: Meg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1828145613
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828145611}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.73, y: 0, z: 0.16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 7004795015004160060}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1830185587
 GameObject:
   m_ObjectHideFlags: 0
@@ -54544,6 +54730,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
@@ -54552,13 +54742,21 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (2)
@@ -55759,17 +55957,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (20)
@@ -56674,6 +56884,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
@@ -56682,13 +56896,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (4)
@@ -59527,17 +59749,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (13)
@@ -59729,17 +59963,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1610740198}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 301331579}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: fadeIn
       value: 
       objectReference: {fileID: 1498494137}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: phrase
+      value: 
+      objectReference: {fileID: 1702251774}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 2633423176864211934}
+      objectReference: {fileID: 7673526115674118791}
     - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1059901911}
+    - target: {fileID: 8066995220938035750, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 7673526115674118797}
     - target: {fileID: 8066995220938035753, guid: ba86bc9e6bc6d42429d07b37ff00a6fc, type: 3}
       propertyPath: m_Name
       value: Sci Fi Gates (7)
@@ -63274,7 +63520,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2633423176864211930}
-  - component: {fileID: 2633423176864211934}
   m_Layer: 0
   m_Name: PlayerCameraRoot
   m_TagString: CinemachineTarget
@@ -63282,22 +63527,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &2633423176864211934
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2633423176864211933}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!95 &4023450735768099398
 Animator:
   serializedVersion: 3
@@ -65880,13 +66109,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7673526115674118790}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -15, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1351784376}
   - {fileID: 2633423176864211930}
-  m_Father: {fileID: 1828145613}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7673526115674118790
 GameObject:
@@ -65903,6 +66132,7 @@ GameObject:
   - component: {fileID: 476739445992435830}
   - component: {fileID: 6256494340506814202}
   - component: {fileID: 7673526115674118794}
+  - component: {fileID: 7673526115674118791}
   m_Layer: 8
   m_Name: Megan
   m_TagString: Player
@@ -65910,6 +66140,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!54 &7673526115674118791
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7673526115674118790}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &7673526115674118794
 MonoBehaviour:
   m_ObjectHideFlags: 0

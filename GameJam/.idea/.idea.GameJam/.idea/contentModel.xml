@@ -48,6 +48,7 @@
           <e p="file.txt" t="Include" />
           <e p="Fullscreen.cs" t="Include" />
           <e p="Load_scene.cs" t="Include" />
+          <e p="MoneyController.cs" t="Include" />
           <e p="Phrase.cs" t="Include" />
           <e p="Quit.cs" t="Include" />
           <e p="RadioController.cs" t="Include" />

@@ -4,15 +4,18 @@
     <list default="true" id="5b0c8e7b-516e-4296-81d2-998b38fc42b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AurynSky/Gems Ultimate Pack/Materials/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AurynSky/Gems Ultimate Pack/Materials/Green.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PHOSdigital/HQ_PBR_Radio_Free/source/Radio_Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PHOSdigital/HQ_PBR_Radio_Free/source/Radio_Glass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PHOSdigital/HQ_PBR_Radio_Free/source/Radio_off.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PHOSdigital/HQ_PBR_Radio_Free/source/Radio_off.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PHOSdigital/HQ_PBR_Radio_Free/source/Radio_on.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PHOSdigital/HQ_PBR_Radio_Free/source/Radio_on.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RadioController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RadioController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Animations/Megan/MeganAnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Animations/Megan/MeganAnimationController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fade.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fade.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sci Fi Gates.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sci Fi Gates.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/999.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/999.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnvironmentColorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnvironmentColorController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoneyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoneyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Phrase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Phrase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ThirdPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ThirdPersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +35,11 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/InputSystem/StarterAssets.inputactions" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Door.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentColorController.cs" />
       <option value="$PROJECT_DIR$/Assets/RadioController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoneyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnvironmentColorController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Phrase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" />
     </changedPaths>
   </component>

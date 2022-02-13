@@ -151,7 +151,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953997536511452663}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.95, y: 0.27, z: -1.02}
+  m_LocalPosition: {x: 3.95, y: -0.66, z: -1.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8066995220938395145}
@@ -445,3 +445,7 @@ MonoBehaviour:
   sound: {fileID: 5187229151498965525}
   player: {fileID: 0}
   pressureSource: {fileID: 4059045150235271973}
+  fadeIn: {fileID: 0}
+  money: {fileID: 0}
+  controller: {fileID: 0}
+  isSafe: 0

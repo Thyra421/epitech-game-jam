@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MoneyController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private int amount = 100000;
+    public Text txt;
+
+    private void Start()
     {
-        
+        txt.text = "$" + amount;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Remove(int a)
     {
-        
+        amount = Mathf.Clamp(0, 100000, amount - a);
+        txt.text = "$" + amount;
     }
 }

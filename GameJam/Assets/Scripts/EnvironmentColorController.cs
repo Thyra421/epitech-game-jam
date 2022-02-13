@@ -40,6 +40,8 @@ public class EnvironmentColorController : MonoBehaviour
         RenderSettings.ambientLight = UnityEngine.Color.white;
     }
 
-    private void ChangeColor(){}
-    
+    public static void Reset()
+    {
+        RenderSettings.ambientLight = UnityEngine.Color.white;
+    }
 }
